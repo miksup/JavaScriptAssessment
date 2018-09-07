@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Entry Form</title>
+</head>
+<body>
+	<form>
+
+	<h5>Name: </h><input id="name" type="text" required="required" onfocusout="nameCheck()"/></br>
+	<div id="nameDiv"></div>
+	<h5>DOB: </h><input id="DOB" type="text" required="required" onfocusout="dobCheck()"/></br>
+	<div id="dobDiv"></div>
+	<h5>Address: </h><input id="Address" type="text" required="required" onfocusout="addCheck()"/></br>
+	<div id="addDiv"></div>
+	<h5>Postcode: </h><input id="PostCode" type="text" required="required" onfocusout="poCheck()"/></br>
+	<div id="postcodeDiv"></div>
+	<h5>Email: </h><input id="Email" type="text" required="required" onfocusout="emailCheck()"/></br>
+	<div id="emailDiv"></div>
+	
+	<button type="submit" onclick="verify()">Submit</button>
+
+	</form>
+
+	<script src="js/entry.js"></script>
+</body>
+</html>
